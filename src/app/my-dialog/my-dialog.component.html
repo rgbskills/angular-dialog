@@ -1,0 +1,21 @@
+<div>
+  <h2 md-dialog-title >My Dialog</h2>
+  <hr>
+  <md-dialog-content>
+    <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore placeat corporis c
+    orrupti accusamus eveniet pariatur, quibusdam hic fuga necessitatibus dolore suscipit
+     dignissimos quae ratione molestiae rerum commodi illum explicabo quia!
+    </p>
+     <br>
+     <br>
+     <strong>
+       {{ data }}
+     </strong>
+  </md-dialog-content>
+  <hr>
+  <md-dialog-actions>
+    <button md-raised-button (click)="onCloseConfirm()">Confirm</button>
+    <button md-raised-button (click)="onCloseCancel()">Cancel</button>
+  </md-dialog-actions>
+</div>
